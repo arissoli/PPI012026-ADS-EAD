@@ -1,0 +1,47 @@
+/* Estilo geral do site */
+
+body {
+    background-color: #f4f6f9;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Botões */
+.btn-primary {
+    border-radius: 8px;
+}
+
+.btn-success {
+    border-radius: 8px;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+}
